@@ -1,0 +1,27 @@
+{
+  "name": "rapidlyst",
+  "version": "1.0.0",
+  "description": "Quick to-do list webapp",
+  "author": "Alpesh Chavda",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@google-cloud/speech": "^3.6.0",
+    "@nuxtjs/dotenv": "^1.4.0",
+    "@nuxtjs/pwa": "^3.0.0-0",
+    "@sweetalert2/theme-dark": "^3.2.0",
+    "firebase": "^7.14.0",
+    "moment": "^2.24.0",
+    "nuxt": "^2.0.0",
+    "sweetalert2": "^9.10.12",
+    "vue2-touch-events": "^2.2.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.0.0"
+  }
+}
